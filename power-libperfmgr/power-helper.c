@@ -80,6 +80,7 @@ struct stats_section system_sections[] = {
     { SYSTEM_STATES, "RPM Mode:cxsd", system_stats_labels, ARRAY_SIZE(system_stats_labels) },
 };
 
+#ifdef TAP_TO_WAKE_NODE
 static int sysfs_write(char *path, char *s)
 {
     char buf[80];
@@ -115,6 +116,7 @@ void set_feature(feature_t feature, int state) {
             break;
     }
 }
+#endif
 
 static int parse_stats(const char **stat_labels, size_t num_stats,
         uint64_t *list, FILE *fp) {
