@@ -2,8 +2,9 @@
 /dev/nubia_eeprom                             u:object_r:camera_eeprom_device:s0
 
 # Data files
-/data/vendor/goodix(/.*)?                     u:object_r:fingerprint_data_file:s0
-/data/vendor/silead(/.*)?                     u:object_r:fingerprint_data_file:s0
+/data/gf_data(/.*)?                           u:object_r:fingerprintd_data_file:s0
+/data/vendor/goodix(/.*)?                     u:object_r:fingerprint_vendor_data_file:s0
+/data/vendor/silead(/.*)?                     u:object_r:fingerprint_vendor_data_file:s0
 /data/vendor/thermal(/.*)?                    u:object_r:thermal_data_file:s0
 
 # Fingerprint devices
