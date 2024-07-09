@@ -324,10 +324,10 @@ vendor/lib64/vendor.qti.gnss@4.0.so|7d343c73e6720434045cc38ea0e570ae9d03cd51
 
 # Graphics (Adreno) - from NX619J PKQ1.180929.001
 vendor/lib64/egl/eglSubDriverAndroid.so|47cdec74e3849e494d3f0bcafe5dd6e5769eadb6
-vendor/lib64/egl/libEGL_adreno.so|f15fa199dc6b59de2110aa02398cb8e9b72c00c6
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|f15fa199dc6b59de2110aa02398cb8e9b72c00c6
 vendor/lib64/egl/libGLESv1_CM_adreno.so|3f5f359a6e13e508cd4fc5784f0c5a8f0ead408a
-vendor/lib64/egl/libGLESv2_adreno.so|35cd9532c567f3de7c30f80fdfe614e3e0c96851
-vendor/lib64/egl/libq3dtools_adreno.so|4bd18c19a4d8376311983303b0971a7aa1334897
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|35cd9532c567f3de7c30f80fdfe614e3e0c96851
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|4bd18c19a4d8376311983303b0971a7aa1334897
 vendor/lib64/egl/libq3dtools_esx.so|22847f2f302b07fc53f5f122b10807af8708c7f8
 vendor/lib64/egl/libQTapGLES.so|8d41d6ad03774c59b1b477997a24ed9afaafc3cc
 vendor/lib64/libadreno_utils.so|c2a2afcee56cad745ad5444c3385fb74c0fb9ff2
@@ -343,10 +343,10 @@ vendor/lib64/librs_adreno_sha1.so|42ba41a7da568a9b0edc508a9b0b73ab2273b904
 vendor/lib64/librs_adreno.so|58e697ffe5c4b76942118d4b3ca43464db7a4924
 vendor/lib64/libRSDriver_adreno.so|4527c159a0bce19d8762ac044813b4a42272af0c
 vendor/lib/egl/eglSubDriverAndroid.so|6ce9cba93751e566a6547b0a10a7458fe74eaba9
-vendor/lib/egl/libEGL_adreno.so|403366b1d187f3625f3bdcd8dd7902eeb1cef73c
+vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|403366b1d187f3625f3bdcd8dd7902eeb1cef73c
 vendor/lib/egl/libGLESv1_CM_adreno.so|36a4efb4cf8f3431d955c0f8eca3e79e97d3c216
-vendor/lib/egl/libGLESv2_adreno.so|778e7c73d3d5682cc70e051475cc4207ee24f683
-vendor/lib/egl/libq3dtools_adreno.so|c3c07de0fdb1ff8bd3d6e4c8ca266d6d8c8384ae
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|778e7c73d3d5682cc70e051475cc4207ee24f683
+vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|c3c07de0fdb1ff8bd3d6e4c8ca266d6d8c8384ae
 vendor/lib/egl/libq3dtools_esx.so|f4226a6d888303e7fcd66953582ad00dd33aaeaa
 vendor/lib/egl/libQTapGLES.so|6917a626e3c0b4a9f57d4b1e6c321ad4a43d99cb
 vendor/lib/libadreno_utils.so|5499a083a65d99f89831c2cfe3f32ef61ea62d79
